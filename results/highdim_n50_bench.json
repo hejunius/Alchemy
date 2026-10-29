@@ -1,0 +1,73 @@
+{
+  "n": 50,
+  "worst_case": {
+    "fixed_radius": {
+      "mean_terminal_wealth": 69927884377900.31,
+      "std_terminal_wealth": 967809734295345.2,
+      "mean_terminal_utility": -848182930277501.2,
+      "ann_ret": 0.6347474223038282,
+      "ann_vol": 1.485921759189599,
+      "sharpe": 0.42717418893576914,
+      "max_drawdown": 0.8583985454753423,
+      "turnover": 251.2631337713196,
+      "cost": 59.17970054669591
+    },
+    "homothetic": {
+      "mean_terminal_wealth": 3230017466371.8955,
+      "std_terminal_wealth": 43618373182765.66,
+      "mean_terminal_utility": -3576398134.248162,
+      "ann_ret": 0.8086070494867369,
+      "ann_vol": 1.2548640512765024,
+      "sharpe": 0.6443782086706418,
+      "max_drawdown": 0.8099347775471918,
+      "turnover": 244.7759448368501,
+      "cost": 57.1447937720737
+    },
+    "merton": {
+      "mean_terminal_wealth": 3.7018387047549286,
+      "std_terminal_wealth": 10.230541947918002,
+      "mean_terminal_utility": -40.90569728020951,
+      "ann_ret": -0.029252373237058784,
+      "ann_vol": 0.29843695480927784,
+      "sharpe": -0.09801860247419125,
+      "max_drawdown": 0.6438639620227226,
+      "turnover": 7.369598280488219,
+      "cost": 1.7014711932582645
+    }
+  },
+  "baseline": {
+    "fixed_radius": {
+      "mean_terminal_wealth": 665629409600253.9,
+      "std_terminal_wealth": 9231273574008002.0,
+      "mean_terminal_utility": -9560111547314.342,
+      "ann_ret": 1.0130193808278596,
+      "ann_vol": 1.4854683481315831,
+      "sharpe": 0.681952854870339,
+      "max_drawdown": 0.8289563512702856,
+      "turnover": 251.2631337713196,
+      "cost": 59.17970054669591
+    },
+    "homothetic": {
+      "mean_terminal_wealth": 24364800945559.906,
+      "std_terminal_wealth": 329659559419813.7,
+      "mean_terminal_utility": -81083444.18977095,
+      "ann_ret": 1.145254446624946,
+      "ann_vol": 1.257344380430316,
+      "sharpe": 0.9108518433374568,
+      "max_drawdown": 0.7735768384238159,
+      "turnover": 244.7759448368501,
+      "cost": 57.1447937720737
+    },
+    "merton": {
+      "mean_terminal_wealth": 5.914281399618168,
+      "std_terminal_wealth": 16.344932552805666,
+      "mean_terminal_utility": -16.0256190696986,
+      "ann_ret": 0.08667513821828268,
+      "ann_vol": 0.2984593387803569,
+      "sharpe": 0.2904085312675336,
+      "max_drawdown": 0.590911171017493,
+      "turnover": 7.369598280488219,
+      "cost": 1.7014711932582645
+    }
+  }
+}

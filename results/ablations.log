@@ -1,0 +1,99 @@
+
+=== ablation [base_repro] ===
+[base_repro] grid reference solved in 18.3s
+[base_repro] warm start (1000 iters on grid)...
+iter 200/4000 loss 5.606e-02 | val L2 0.0631 Linf 0.3991 | pol err 0.5245
+iter 400/4000 loss 4.259e-02 | val L2 0.0581 Linf 0.3970 | pol err 0.3719
+iter 600/4000 loss 4.031e-02 | val L2 0.0687 Linf 0.3611 | pol err 0.3199
+iter 800/4000 loss 3.684e-02 | val L2 0.0643 Linf 0.2912 | pol err 0.2924
+iter 1000/4000 loss 3.690e-02 | val L2 0.0656 Linf 0.2702 | pol err 0.2862
+iter 1200/4000 loss 3.453e-02 | val L2 0.0580 Linf 0.2597 | pol err 0.2781
+iter 1400/4000 loss 3.723e-02 | val L2 0.0559 Linf 0.2553 | pol err 0.2754
+iter 1600/4000 loss 3.449e-02 | val L2 0.0583 Linf 0.2702 | pol err 0.2663
+iter 1800/4000 loss 3.371e-02 | val L2 0.0545 Linf 0.2487 | pol err 0.2660
+iter 2000/4000 loss 3.473e-02 | val L2 0.0565 Linf 0.2555 | pol err 0.2675
+iter 2200/4000 loss 3.494e-02 | val L2 0.0578 Linf 0.2668 | pol err 0.2730
+iter 2400/4000 loss 3.780e-02 | val L2 0.0557 Linf 0.2600 | pol err 0.2731
+iter 2600/4000 loss 3.695e-02 | val L2 0.0576 Linf 0.2680 | pol err 0.2781
+iter 2800/4000 loss 3.816e-02 | val L2 0.0575 Linf 0.2666 | pol err 0.2844
+iter 3000/4000 loss 3.712e-02 | val L2 0.0578 Linf 0.2680 | pol err 0.2854
+iter 3200/4000 loss 3.796e-02 | val L2 0.0558 Linf 0.2557 | pol err 0.2886
+iter 3400/4000 loss 3.911e-02 | val L2 0.0553 Linf 0.2540 | pol err 0.2897
+iter 3600/4000 loss 3.913e-02 | val L2 0.0559 Linf 0.2599 | pol err 0.2908
+iter 3800/4000 loss 3.923e-02 | val L2 0.0560 Linf 0.2603 | pol err 0.2906
+iter 4000/4000 loss 3.662e-02 | val L2 0.0559 Linf 0.2599 | pol err 0.2903
+[base_repro] done: value_l2=0.0559 linf=0.2599 policy=0.2909 util=-0.3631 dd=0.0382
+
+=== ablation [adv_on] ===
+[adv_on] grid reference solved in 18.3s
+[adv_on] warm start (1000 iters on grid)...
+iter 200/4000 loss 6.360e-02 | val L2 0.0688 Linf 0.4250 | pol err 0.5334
+iter 400/4000 loss 5.042e-02 | val L2 0.0686 Linf 0.3724 | pol err 0.3848
+iter 600/4000 loss 4.715e-02 | val L2 0.0650 Linf 0.3269 | pol err 0.3563
+iter 800/4000 loss 4.544e-02 | val L2 0.0638 Linf 0.3154 | pol err 0.3144
+iter 1000/4000 loss 4.643e-02 | val L2 0.0690 Linf 0.3098 | pol err 0.3132
+iter 1200/4000 loss 4.549e-02 | val L2 0.0642 Linf 0.2929 | pol err 0.3148
+iter 1400/4000 loss 4.855e-02 | val L2 0.0615 Linf 0.2834 | pol err 0.3439
+iter 1600/4000 loss 4.520e-02 | val L2 0.0613 Linf 0.2922 | pol err 0.3315
+iter 1800/4000 loss 4.409e-02 | val L2 0.0616 Linf 0.2859 | pol err 0.3176
+iter 2000/4000 loss 4.758e-02 | val L2 0.0617 Linf 0.3064 | pol err 0.3163
+iter 2200/4000 loss 4.519e-02 | val L2 0.0675 Linf 0.3221 | pol err 0.3289
+iter 2400/4000 loss 4.871e-02 | val L2 0.0610 Linf 0.2944 | pol err 0.3201
+iter 2600/4000 loss 4.631e-02 | val L2 0.0629 Linf 0.3080 | pol err 0.3175
+iter 2800/4000 loss 4.775e-02 | val L2 0.0610 Linf 0.3005 | pol err 0.3193
+iter 3000/4000 loss 4.540e-02 | val L2 0.0634 Linf 0.3144 | pol err 0.3176
+iter 3200/4000 loss 4.528e-02 | val L2 0.0612 Linf 0.3015 | pol err 0.3174
+iter 3400/4000 loss 4.794e-02 | val L2 0.0604 Linf 0.2980 | pol err 0.3169
+iter 3600/4000 loss 4.546e-02 | val L2 0.0612 Linf 0.3015 | pol err 0.3178
+iter 3800/4000 loss 4.670e-02 | val L2 0.0615 Linf 0.3044 | pol err 0.3176
+iter 4000/4000 loss 4.278e-02 | val L2 0.0611 Linf 0.3029 | pol err 0.3173
+[adv_on] done: value_l2=0.0611 linf=0.3029 policy=0.3179 util=-0.3611 dd=0.0384
+
+=== ablation [no_warmstart] ===
+[no_warmstart] grid reference solved in 19.4s
+iter 200/4000 loss 5.901e-02 | val L2 0.0926 Linf 0.4006 | pol err 0.5287
+iter 400/4000 loss 4.906e-02 | val L2 0.0665 Linf 0.3259 | pol err 0.3771
+iter 600/4000 loss 4.139e-02 | val L2 0.0641 Linf 0.3514 | pol err 0.3353
+iter 800/4000 loss 4.161e-02 | val L2 0.0677 Linf 0.3298 | pol err 0.3026
+iter 1000/4000 loss 3.791e-02 | val L2 0.0677 Linf 0.3319 | pol err 0.2827
+iter 1200/4000 loss 3.757e-02 | val L2 0.0734 Linf 0.3790 | pol err 0.2693
+iter 1400/4000 loss 3.537e-02 | val L2 0.0576 Linf 0.3515 | pol err 0.2646
+iter 1600/4000 loss 3.570e-02 | val L2 0.0613 Linf 0.3388 | pol err 0.2633
+iter 1800/4000 loss 3.418e-02 | val L2 0.0599 Linf 0.3197 | pol err 0.2569
+iter 2000/4000 loss 3.553e-02 | val L2 0.0624 Linf 0.2950 | pol err 0.2568
+iter 2200/4000 loss 3.415e-02 | val L2 0.0597 Linf 0.3135 | pol err 0.2586
+iter 2400/4000 loss 3.819e-02 | val L2 0.0582 Linf 0.3026 | pol err 0.2628
+iter 2600/4000 loss 3.520e-02 | val L2 0.0571 Linf 0.3061 | pol err 0.2721
+iter 2800/4000 loss 3.574e-02 | val L2 0.0583 Linf 0.3082 | pol err 0.2793
+iter 3000/4000 loss 3.725e-02 | val L2 0.0593 Linf 0.3145 | pol err 0.2803
+iter 3200/4000 loss 3.771e-02 | val L2 0.0582 Linf 0.3017 | pol err 0.2849
+iter 3400/4000 loss 4.068e-02 | val L2 0.0580 Linf 0.2952 | pol err 0.2891
+iter 3600/4000 loss 3.855e-02 | val L2 0.0581 Linf 0.2945 | pol err 0.2888
+iter 3800/4000 loss 3.982e-02 | val L2 0.0584 Linf 0.2904 | pol err 0.2899
+iter 4000/4000 loss 3.828e-02 | val L2 0.0586 Linf 0.2905 | pol err 0.2897
+[no_warmstart] done: value_l2=0.0586 linf=0.2905 policy=0.2903 util=-0.3649 dd=0.0370
+
+=== ablation [standalone_residual] ===
+[standalone_residual] grid reference solved in 19.2s
+[standalone_residual] warm start (1000 iters on grid)...
+iter 200/4000 loss 2.229e-01 | val L2 0.3635 Linf 1.0492 | pol err 0.6965
+iter 400/4000 loss 1.945e-01 | val L2 0.3719 Linf 1.0063 | pol err 0.8269
+iter 600/4000 loss 1.247e-01 | val L2 0.4967 Linf 1.4026 | pol err 1.0656
+iter 800/4000 loss 1.187e-01 | val L2 0.5463 Linf 1.5178 | pol err 1.2341
+iter 1000/4000 loss 1.165e-01 | val L2 0.5919 Linf 1.6196 | pol err 1.2966
+iter 1200/4000 loss 9.761e-02 | val L2 0.6339 Linf 1.6608 | pol err 1.3272
+iter 1400/4000 loss 9.636e-02 | val L2 0.6455 Linf 1.6384 | pol err 1.3577
+iter 1600/4000 loss 8.743e-02 | val L2 0.6714 Linf 1.6617 | pol err 1.3742
+iter 1800/4000 loss 9.160e-02 | val L2 0.6815 Linf 1.7069 | pol err 1.3820
+iter 2000/4000 loss 8.197e-02 | val L2 0.7230 Linf 1.7493 | pol err 1.3914
+iter 2200/4000 loss 9.087e-02 | val L2 0.7054 Linf 1.7107 | pol err 1.3838
+iter 2400/4000 loss 9.051e-02 | val L2 0.7163 Linf 1.7434 | pol err 1.3816
+iter 2600/4000 loss 7.691e-02 | val L2 0.7107 Linf 1.7128 | pol err 1.3953
+iter 2800/4000 loss 7.566e-02 | val L2 0.7078 Linf 1.7046 | pol err 1.3901
+iter 3000/4000 loss 7.600e-02 | val L2 0.7122 Linf 1.7124 | pol err 1.4030
+iter 3200/4000 loss 7.407e-02 | val L2 0.7108 Linf 1.7257 | pol err 1.3724
+iter 3400/4000 loss 8.654e-02 | val L2 0.7263 Linf 1.7478 | pol err 1.3801
+iter 3600/4000 loss 6.938e-02 | val L2 0.7269 Linf 1.7484 | pol err 1.3797
+iter 3800/4000 loss 7.702e-02 | val L2 0.7218 Linf 1.7359 | pol err 1.3850
+iter 4000/4000 loss 1.048e-01 | val L2 0.7241 Linf 1.7406 | pol err 1.3819
+[standalone_residual] done: value_l2=0.7241 linf=1.7406 policy=1.3846 util=-111.2470 dd=0.5723

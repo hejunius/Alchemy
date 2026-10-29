@@ -1,0 +1,78 @@
+{
+  "stage": 2,
+  "config": {
+    "T": 1.0,
+    "K": 24,
+    "r": 0.01,
+    "gamma": 3.0,
+    "n_assets": 2,
+    "mu_bar": [
+      0.06,
+      0.08
+    ],
+    "B": [
+      1.0,
+      1.5
+    ],
+    "sigma": [
+      0.2,
+      0.3
+    ],
+    "rho_asset": 0.5,
+    "kappa": 2.0,
+    "m_bar": 0.0,
+    "nu": 0.3,
+    "kappa1": 0.05,
+    "kappa2": 0.2,
+    "lambda_tc": 1.0,
+    "eps_mu": 0.0,
+    "M_reg": 0.05,
+    "n_years": 4,
+    "switch_rate": 2.0,
+    "n_paths": 200,
+    "seed": 0
+  },
+  "cert": {
+    "value_l2": 0.1863980857534878,
+    "value_linf": 1.1424518627444746,
+    "policy_err": 0.5933679521680353,
+    "policy_linf": 2.7379913651099597
+  },
+  "grid_time": 17.768861770629883,
+  "train_time": 525.3285608291626,
+  "pnl": {
+    "nn": {
+      "mean_terminal_wealth": 1.2692850423748332,
+      "std_terminal_wealth": 0.21400188302648307,
+      "mean_terminal_utility": -0.32947619952075796,
+      "ann_ret": 0.05611398692634621,
+      "ann_vol": 0.04334661166174953,
+      "sharpe": 1.2945414826013502,
+      "max_drawdown": 0.042989786162743,
+      "turnover": 0.8476383538135456,
+      "cost": 0.057997756434103334
+    },
+    "grid": {
+      "mean_terminal_wealth": 1.30772102551147,
+      "std_terminal_wealth": 0.36038964635856513,
+      "mean_terminal_utility": -0.3300586762033724,
+      "ann_ret": 0.05989573137637938,
+      "ann_vol": 0.05803432636036261,
+      "sharpe": 1.0320742073313374,
+      "max_drawdown": 0.06761475445707044,
+      "turnover": 0.7230403870838401,
+      "cost": 0.05627389652849553
+    },
+    "merton": {
+      "mean_terminal_wealth": 1.137200762046645,
+      "std_terminal_wealth": 0.4504542296644077,
+      "mean_terminal_utility": -0.5869721094035177,
+      "ann_ret": 0.01410967101363918,
+      "ann_vol": 0.09809978253965305,
+      "sharpe": 0.14382978889821585,
+      "max_drawdown": 0.2453188856512709,
+      "turnover": 0.45679012345679015,
+      "cost": 0.10893918609967994
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "n": 30,
+  "train_time": 6359.183465242386,
+  "input_dim": 33,
+  "final_residual": 2.3104214668273926,
+  "worst_case": {
+    "nn": {
+      "mean_terminal_wealth": 1.0702870137719949,
+      "std_terminal_wealth": 0.1894920921709126,
+      "mean_terminal_utility": -0.46970807545420157,
+      "ann_ret": 0.013435463266887748,
+      "ann_vol": 0.03860428609419819,
+      "sharpe": 0.3480303517102717,
+      "max_drawdown": 0.09493975934080755,
+      "turnover": 0.4669923785347925,
+      "cost": 0.023646009032474873
+    },
+    "merton": {
+      "mean_terminal_wealth": 1.1595830281921187,
+      "std_terminal_wealth": 0.8602351682224215,
+      "mean_terminal_utility": -1.2706204414098141,
+      "ann_ret": -0.016788084094321375,
+      "ann_vol": 0.17116188832374743,
+      "sharpe": -0.09808307362540446,
+      "max_drawdown": 0.41046448760175025,
+      "turnover": 2.553231830477681,
+      "cost": 0.5507213569085286
+    },
+    "fixed_radius": {
+      "mean_terminal_wealth": 1160100.3546556644,
+      "std_terminal_wealth": 14283462.315436646,
+      "mean_terminal_utility": -0.0863164567927421,
+      "ann_ret": 0.7710721138433269,
+      "ann_vol": 0.6897056132299418,
+      "sharpe": 1.117972797455337,
+      "max_drawdown": 0.5213490942369787,
+      "turnover": 136.12811879026293,
+      "cost": 30.251275781650143
+    },
+    "homothetic": {
+      "mean_terminal_wealth": 186903.4159995435,
+      "std_terminal_wealth": 2202556.896799768,
+      "mean_terminal_utility": -0.035638794269147435,
+      "ann_ret": 0.7678794942179225,
+      "ann_vol": 0.6065940465654787,
+      "sharpe": 1.2658869610831796,
+      "max_drawdown": 0.44600990380463057,
+      "turnover": 126.74517290588098,
+      "cost": 27.365861733162866
+    }
+  },
+  "baseline": {
+    "nn": {
+      "mean_terminal_wealth": 1.1118791863435487,
+      "std_terminal_wealth": 0.2080929642224847,
+      "mean_terminal_utility": -0.4380580902140872,
+      "ann_ret": 0.02252523442775365,
+      "ann_vol": 0.03865940686567469,
+      "sharpe": 0.5826585624042149,
+      "max_drawdown": 0.08296854090819598,
+      "turnover": 0.46614790856739563,
+      "cost": 0.023602686726417934
+    },
+    "merton": {
+      "mean_terminal_wealth": 1.4883992182102725,
+      "std_terminal_wealth": 1.1041670330889866,
+      "mean_terminal_utility": -0.771224241525439,
+      "ann_ret": 0.04497868956156509,
+      "ann_vol": 0.17116631850391553,
+      "sharpe": 0.26277768871062196,
+      "max_drawdown": 0.35780602298134395,
+      "turnover": 2.553231830477681,
+      "cost": 0.5507213569085286
+    },
+    "fixed_radius": {
+      "mean_terminal_wealth": 5642148.591866854,
+      "std_terminal_wealth": 70017377.25620522,
+      "mean_terminal_utility": -0.020511247644145632,
+      "ann_ret": 0.9695897311340111,
+      "ann_vol": 0.6980099437605367,
+      "sharpe": 1.3890772471095973,
+      "max_drawdown": 0.47093711382018844,
+      "turnover": 136.12811879026293,
+      "cost": 30.251275781650143
+    },
+    "homothetic": {
+      "mean_terminal_wealth": 754087.1052205317,
+      "std_terminal_wealth": 8950888.266437108,
+      "mean_terminal_utility": -0.010924873196316059,
+      "ann_ret": 0.9492442520537319,
+      "ann_vol": 0.6145288914300922,
+      "sharpe": 1.5446698524534976,
+      "max_drawdown": 0.39756272403881665,
+      "turnover": 126.74517290588098,
+      "cost": 27.365861733162866
+    }
+  }
+}

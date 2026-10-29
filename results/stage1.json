@@ -1,0 +1,40 @@
+{
+  "stage": 1,
+  "config": {
+    "T": 1.0,
+    "K": 24,
+    "r": 0.01,
+    "gamma": 3.0,
+    "n_assets": 2,
+    "mu_bar": [
+      0.06,
+      0.08
+    ],
+    "B": [
+      0.0,
+      0.0
+    ],
+    "sigma": [
+      0.2,
+      0.3
+    ],
+    "rho_asset": 0.5,
+    "kappa": 0.0,
+    "m_bar": 0.0,
+    "nu": 0.0,
+    "kappa1": 0.0,
+    "kappa2": 0.1,
+    "lambda_tc": 1.0,
+    "eps_mu": 0.0,
+    "M_reg": 0.05,
+    "n_years": 4,
+    "switch_rate": 2.0,
+    "n_paths": 200,
+    "seed": 0
+  },
+  "merton_l2": 0.029769911732112762,
+  "merton_linf": 0.13147087677377564,
+  "terminal_err": 1.5256064522795043e-07,
+  "n_test": 2048,
+  "train_time": 466.56705927848816
+}

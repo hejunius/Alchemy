@@ -1,0 +1,79 @@
+[n=6] grid ((8, 6, 3, 3, 3, 3, 3, 3)) solved in 1503.5s
+iter 200/4000 loss 5.108e-02 | val L2 0.0712 Linf 0.5032 | pol err 0.6854
+iter 400/4000 loss 4.640e-02 | val L2 0.0614 Linf 0.4246 | pol err 0.5773
+iter 600/4000 loss 4.323e-02 | val L2 0.0598 Linf 0.3690 | pol err 0.5386
+iter 800/4000 loss 4.364e-02 | val L2 0.0609 Linf 0.3696 | pol err 0.5109
+iter 1000/4000 loss 4.844e-02 | val L2 0.0529 Linf 0.3058 | pol err 0.4824
+iter 1200/4000 loss 4.268e-02 | val L2 0.0591 Linf 0.3298 | pol err 0.4469
+iter 1400/4000 loss 3.727e-02 | val L2 0.0543 Linf 0.3423 | pol err 0.4431
+iter 1600/4000 loss 3.594e-02 | val L2 0.0552 Linf 0.3276 | pol err 0.4348
+iter 1800/4000 loss 3.547e-02 | val L2 0.0550 Linf 0.3341 | pol err 0.4414
+iter 2000/4000 loss 3.555e-02 | val L2 0.0497 Linf 0.3099 | pol err 0.3991
+iter 2200/4000 loss 3.077e-02 | val L2 0.0502 Linf 0.3194 | pol err 0.3939
+iter 2400/4000 loss 4.357e-02 | val L2 0.0526 Linf 0.3110 | pol err 0.3879
+iter 2600/4000 loss 3.409e-02 | val L2 0.0521 Linf 0.3296 | pol err 0.3872
+iter 2800/4000 loss 3.310e-02 | val L2 0.0511 Linf 0.3280 | pol err 0.3813
+iter 3000/4000 loss 3.393e-02 | val L2 0.0527 Linf 0.3364 | pol err 0.3802
+iter 3200/4000 loss 2.836e-02 | val L2 0.0507 Linf 0.3258 | pol err 0.3779
+iter 3400/4000 loss 3.085e-02 | val L2 0.0500 Linf 0.3265 | pol err 0.3746
+iter 3600/4000 loss 3.294e-02 | val L2 0.0513 Linf 0.3300 | pol err 0.3732
+iter 3800/4000 loss 3.074e-02 | val L2 0.0507 Linf 0.3267 | pol err 0.3722
+iter 4000/4000 loss 3.636e-02 | val L2 0.0508 Linf 0.3272 | pol err 0.3728
+[n=6] done: L2 0.0508 Linf 0.3272 pol 0.3762 | nn util -0.3465 vs grid -0.3204
+
+=== high-dim n=30 (neural-only, adversarial residual) ===
+iter 200/3000 loss 2.624e+01
+iter 400/3000 loss 1.575e+01
+iter 600/3000 loss 9.804e+00
+iter 800/3000 loss 1.089e+01
+iter 1000/3000 loss 9.204e+00
+iter 1200/3000 loss 9.490e+00
+iter 1400/3000 loss 1.132e+01
+iter 1600/3000 loss 8.150e+00
+iter 1800/3000 loss 5.815e+00
+iter 2000/3000 loss 4.895e+00
+iter 2200/3000 loss 4.575e+00
+iter 2400/3000 loss 6.567e+00
+iter 2600/3000 loss 4.983e+00
+iter 2800/3000 loss 4.767e+00
+iter 3000/3000 loss 5.338e+00
+[n=30] baseline: nn util -0.4381 | merton -0.7712 | fixed-r -0.0205 | homoth -0.0109
+[n=30] worst_case: nn util -0.4697 | merton -1.2706 | fixed-r -0.0863 | homoth -0.0356
+
+=== high-dim n=50 (neural-only, adversarial residual) ===
+iter 200/3000 loss 1.168e+02
+iter 400/3000 loss 1.098e+02
+iter 600/3000 loss 9.252e+01
+iter 800/3000 loss 8.081e+01
+iter 1000/3000 loss 6.735e+01
+iter 1200/3000 loss 5.186e+01
+iter 1400/3000 loss 3.686e+01
+iter 1600/3000 loss 2.920e+01
+iter 1800/3000 loss 2.978e+01
+iter 2000/3000 loss 2.352e+01
+iter 2200/3000 loss 2.100e+01
+iter 2400/3000 loss 2.401e+01
+iter 2600/3000 loss 1.878e+01
+iter 2800/3000 loss 1.877e+01
+iter 3000/3000 loss 2.188e+01
+[n=50] baseline: nn util -0.4620 | merton -16.0256 | fixed-r -15866029514382.2402 | homoth -81083444.1898
+[n=50] worst_case: nn util -0.4775 | merton -40.9057 | fixed-r -1483986621700185.0000 | homoth -3576398134.2482
+
+=== high-dim n=100 (neural-only, adversarial residual) ===
+iter 200/3000 loss 8.920e+02
+iter 400/3000 loss 7.299e+02
+iter 600/3000 loss 6.565e+02
+iter 800/3000 loss 6.702e+02
+iter 1000/3000 loss 6.234e+02
+iter 1200/3000 loss 3.979e+02
+iter 1400/3000 loss 4.079e+02
+iter 1600/3000 loss 4.073e+02
+iter 1800/3000 loss 4.024e+02
+iter 2000/3000 loss 4.191e+02
+iter 2200/3000 loss 4.101e+02
+iter 2400/3000 loss 2.646e+02
+iter 2600/3000 loss 3.393e+02
+iter 2800/3000 loss 3.115e+02
+iter 3000/3000 loss 3.914e+02
+[n=100] baseline: nn util -1.0421 | merton -121.3908 | fixed-r -271712327762759432450845503007410356224.0000 | homoth -759981392870298508853248.0000
+[n=100] worst_case: nn util -2.1722 | merton -392.9725 | fixed-r -2779748319656294393482199005648273356619776.0000 | homoth -405161608593992816235905024.0000

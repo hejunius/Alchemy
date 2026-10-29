@@ -1,0 +1,76 @@
+{
+  "variant": "base_repro",
+  "config": {
+    "T": 1.0,
+    "K": 24,
+    "r": 0.01,
+    "gamma": 3.0,
+    "n_assets": 2,
+    "mu_bar": [
+      0.06,
+      0.08
+    ],
+    "B": [
+      1.0,
+      1.5
+    ],
+    "sigma": [
+      0.2,
+      0.3
+    ],
+    "rho_asset": 0.5,
+    "kappa": 2.0,
+    "m_bar": 0.0,
+    "nu": 0.3,
+    "kappa1": 0.05,
+    "kappa2": 0.2,
+    "lambda_tc": 1.0,
+    "eps_mu": 0.3,
+    "M_reg": 0.05,
+    "n_years": 4,
+    "switch_rate": 2.0,
+    "n_paths": 200,
+    "seed": 0
+  },
+  "nn": {
+    "width": 128,
+    "depth": 3,
+    "lr": 0.001,
+    "iterations": 4000,
+    "warm_iters": 1000,
+    "batch": 4096,
+    "n_adv": 0,
+    "adv_lr": 0.01,
+    "adv_frac": 0.5,
+    "w_boundary": 0.01,
+    "w_concavity": 0.001,
+    "w_policy": 0.1,
+    "w_res": 0.1,
+    "w_anchor": 1.0,
+    "policy_ema": 0.99,
+    "log_every": 200,
+    "seed": 0
+  },
+  "cert": {
+    "value_l2": 0.055922970559634265,
+    "value_linf": 0.2598581349677488,
+    "policy_err": 0.29087826266168704,
+    "value_l2_all": 0.18014499760622568,
+    "value_linf_all": 0.9278154910076977,
+    "policy_err_all": 0.6039549986729179,
+    "policy_linf_all": 2.467662554686482
+  },
+  "grid_time": 18.28961205482483,
+  "train_time": 400.6195251941681,
+  "pnl": {
+    "mean_terminal_wealth": 1.1950446562881587,
+    "std_terminal_wealth": 0.15023757391903547,
+    "mean_terminal_utility": -0.3631214251658199,
+    "ann_ret": 0.04239233760353837,
+    "ann_vol": 0.036620485420993824,
+    "sharpe": 1.15761266177088,
+    "max_drawdown": 0.03815770457252935,
+    "turnover": 0.8243333393769092,
+    "cost": 0.055640230198656514
+  }
+}
